@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+body{
+    background: #bf3756;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Mulish', sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: white;
+}
+a:visited{
+    color: #ffc400;
+}
+
+
+h1{
+    color:#ffffff
+}
+
+.ava{
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 14px #671032;
+}
+
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+@media(max-width:700px){
+    .info{
+        text-align: center;
+        display: block;
+    }
+}
+
+.info h1{
+    color: white;
+    margin: 78px 70px 1px;
+    letter-spacing: 1px;
+    text-align: center ;
+}
+/*box model*/
+.social{
+    background: #a35f5f;
+    padding: 1px 20px;
+
+    border: 5px solid #641c1c;
+    margin: 20px;
+    box-shadow: inset 5px 5px 20px 0.2em #450c22;
+    border-radius: 20px;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+/*
+.box-model > div{
+    float: left;
+background: black;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+*/
+.bg-yellow {
+    background: rgba(255, 224, 0, 0.5);
+
+}
+
+.bg-green {
+    background: rgba(130, 20, 170, 0.18);
+
+}
+
+.bg-red {
+    background: rgba(0, 167, 255, 0.4);
+}
+
+.bg-black{
+    background: #2c2c36;
+}
+
+
+.card{
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.stick{
+    border-radius: 5px;
+}
+
+.list{
+    padding: 5px 20px;
+    border-radius: 20px;
+
+
+    /*list-style: none;*/
+
+}
+
+.list li {
+    color: black;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+
+}
+
+.table{
+    width: 100%;
+}
+
+.table td:nth-child(1){
+    color: #ffce00;
+    font-size: 20px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3){
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #ff8000;
+}
+
+/*
+table tr:nth-child(odd){
+    background: red;
+}
+*/
+
+.link-list{
+list-style: inside;
+}
+
+.link-list li{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.contact h2 {
+    text-align: center;
+
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: rgba(40, 44, 54, 0.37);
+    border-bottom: 1px solid rgba(52, 56, 78, 0.99);
+    border-radius: 9px;
+    color: black;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.raw{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.raw >.form-group{
+    width: 50%;
+}
+
+.raw >.form-group:first-child{
+     margin-right: 20px;
+}
+
+
+.btm{
+    background: #2c2c36;
+    padding: 15px 20px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer;
+
+
+
+}
+
+.btm:hover{
+    opacity: 0.8;
+}
+
+/*
+.position{
+position: relative;
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px;
+height: 300px;
+
+}
+
+.box{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    top: 1960px;
+    width: 50px;
+    height: 50px;
+    background: lightcoral;
+
+}
+*/
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    rgba(255, 215, 0, 0.49);
+    margin-bottom: 10px;
+}
